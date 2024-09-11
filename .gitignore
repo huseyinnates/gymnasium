@@ -1,0 +1,11 @@
+/DLLs/*
+/bin/*
+/Lib/*
+/Library/*
+/samples/*
+/conda-meta/*
+/doc/*
+/etc/*
+/src/*
+/Tools/*
+

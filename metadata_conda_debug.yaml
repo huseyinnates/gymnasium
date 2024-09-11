@@ -1,0 +1,11 @@
+package:
+  name: cuda-nvtx
+  version: 11.8.86
+source:
+  fn: cuda_nvtx-windows-x86_64-11.8.86-archive.zip
+  md5: ee20c858be84a6eb61830693f0c9d5a2
+  url: cuda_nvtx-windows-x86_64-11.8.86-archive.zip
+outputs:
+  - name: cuda-nvtx
+extra:
+  final: null
