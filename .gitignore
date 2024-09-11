@@ -8,4 +8,4 @@
 /etc/*
 /src/*
 /Tools/*
-*.dll
+/*.dll
