@@ -1,1 +1,1 @@
-Best mean reward: 322.6
+Best mean reward: 500.0
