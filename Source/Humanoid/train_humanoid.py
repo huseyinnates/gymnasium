@@ -22,7 +22,7 @@ model = PPO(
     env,
     learning_rate=0.0003,
     n_steps=2048,
-    batch_size=64,
+    batch_size=256,
     n_epochs=10,
     tensorboard_log=log_dir,
     verbose=1,
@@ -30,7 +30,7 @@ model = PPO(
 )
 
 # Modeli eğit
-timesteps = 100000  # Eğitmek istediğiniz adım sayısı
+timesteps = 1000000  # Eğitmek istediğiniz adım sayısı
 model.learn(total_timesteps=timesteps)
 
 # Eğitilen modeli kaydet
